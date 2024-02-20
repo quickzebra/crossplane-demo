@@ -18,5 +18,5 @@ spec:
     globalSecondaryIndex:
       - hashKey: customerId
         name: idx_global_customerId
-        projectionType: All
+        projectionType: ALL
     hashKey: id
