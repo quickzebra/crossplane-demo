@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: carts
+data:
+  CARTS_DYNAMODB_TABLENAME: idp-carts-crossplane
+  CARTS_DYNAMODB_CREATETABLE: "false"
