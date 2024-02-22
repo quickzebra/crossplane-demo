@@ -6,3 +6,4 @@ resources:
 patches:
 # HIGHLIGHT
 - path: deployment-patch.yaml
+- path: service-patch.yaml
