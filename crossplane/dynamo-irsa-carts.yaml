@@ -8,8 +8,8 @@ spec:
   resourceConfig:
     region: ''
     tags:
-    name: idp-carts-crossplane
       namespace: carts
+    name: idp-carts-crossplane
   dynamoConfig:
     attribute:
       - name: id
