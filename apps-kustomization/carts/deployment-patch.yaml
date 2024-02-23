@@ -4,4 +4,6 @@ metadata:
   name: carts
 spec:
   # HIGHLIGHT
-  serviceAccountName: idp-carts-crossplane
+  template:
+    spec:
+      serviceAccountName: idp-carts-crossplane
