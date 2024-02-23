@@ -5,3 +5,9 @@ metadata:
 data:
   CARTS_DYNAMODB_TABLENAME: idp-carts-crossplane
   CARTS_DYNAMODB_CREATETABLE: "false"
+- op: remove #action 
+  path: /data/AWS_ACCESS_KEY_ID
+- op: remove #action 
+  path: /data/AWS_SECRET_ACCESS_KEY
+- op: remove #action 
+  path: /data/CARTS_DYNAMODB_ENDPOINT
