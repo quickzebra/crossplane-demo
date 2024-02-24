@@ -18,3 +18,4 @@ applications:
   - name: other
   - name: rabbitmq
   - name: ui
+  - name: crossplane-dynamodb
