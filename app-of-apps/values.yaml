@@ -11,7 +11,7 @@ spec:
 # HIGHLIGHT
 applications:
   - name: assets
-  - name: carts
+  - name: carts-old
   - name: catalog
   - name: checkout
   - name: orders
