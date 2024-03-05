@@ -14,7 +14,7 @@ after running the above commands as a script
 ### Fix the carts application
 
 Broken carts App is deployed in Argo
-Following script will fix the iam policy composition and then delete and recreate the whole app of apps setup
+Following script will fix the iam policy composition and then delete and recreate the whole app of apps setup, this will recreate the ui endpoint so extract that once apps are redeployed
 Make sure $GITOPS_REPO_URL_ARGOCD has been setup as your git repo and you are logged in to argocd via ui if not then use the following command
 
 ```bash
