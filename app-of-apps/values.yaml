@@ -11,11 +11,11 @@ spec:
 # HIGHLIGHT
 applications:
   - name: assets
-  - name: carts
+  - name: carts-old
   - name: catalog
   - name: checkout
   - name: orders
   - name: other
   - name: rabbitmq
   - name: ui
-  - name: crossplane-dynamodb
+  # - name: crossplane-dynamodb
