@@ -1,0 +1,15 @@
+apiVersion: dynamodb.aws.upbound.io/v1beta1
+kind: Table
+metadata:
+  annotations:
+    meta.upbound.io/example-id: dynamodb/v1beta1/globaltable
+  name: example
+spec:
+  forProvider:
+    attribute:
+      - name: myAttribute
+        type: S
+    hashKey: myAttribute
+    readCapacity: 1
+    region: us-west-1
+    writeCapacity: 1
