@@ -5,6 +5,8 @@ metadata:
     meta.upbound.io/example-id: dynamodb/v1beta1/globaltable
   name: example
 spec:
+  providerConfigRef:
+    name: aws-provider-config
   forProvider:
     attribute:
       - name: myAttribute
