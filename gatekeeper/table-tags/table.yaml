@@ -13,6 +13,6 @@ spec:
     readCapacity: 1
     region: us-west-1
     writeCapacity: 1
-    tags:
-      key: owner
-      value: navya
+    # tags:
+    #   key: owner
+    #   value: navya

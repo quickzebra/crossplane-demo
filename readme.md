@@ -1,4 +1,4 @@
-# The is a demo for App of Apps + Crossplane
+# This is a demo for App of Apps + Crossplane
 
 ### Please Note: the following is draft demo flow and it will further automated in the near future
 
