@@ -37,6 +37,8 @@ Use the following command to deploy the above Dynamodb table using ArgoCD
 ```bash
 argocd app create gatekeeper-table --repo $GITOPS_REPO_URL_ARGOCD --path gatekeeper/table-tags --dest-server https://kubernetes.default.svc
 ```
+Manually click sync on the ArgoCD ui to see the actual Sync Failed message
+
 
 ### Deploy table with 'owner' tag
 
