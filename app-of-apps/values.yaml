@@ -4,7 +4,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     # HIGHLIGHT
-    repoURL: git@github.com:7navyasa/crossplane-demo.git
+    repoURL: git@github.com:quickzebra/crossplane-demo.git
     # HIGHLIGHT
     targetRevision: main
 
