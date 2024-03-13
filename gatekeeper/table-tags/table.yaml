@@ -15,5 +15,5 @@ spec:
     readCapacity: 1
     region: us-west-1
     writeCapacity: 1
-    # tags:
-    #   owner: dev
+    tags:
+      owner: dev
