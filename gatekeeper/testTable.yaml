@@ -17,4 +17,4 @@ spec:
     writeCapacity: 1
     tags:
       key: owner
-      value: navya
+      value: dev
