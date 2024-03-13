@@ -16,5 +16,4 @@ spec:
     region: us-west-1
     writeCapacity: 1
     # tags:
-    #   key: owner
-    #   value: dev
+    #   owner: dev
